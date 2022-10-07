@@ -1,4 +1,5 @@
 # FTP
 For The Plateform - Activité Serveur FTP
 
-# JOB_07 en cours, j'en suis à l'étape 7 (voir notes)
+# JOB_07 --> fini, à tester sur une VM
+# JOB_08 --> fini, à tester sur une VM
