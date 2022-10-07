@@ -18,7 +18,7 @@ echo "Paramétrage ProFTPD effectué"
 
 # Création du dossier SSL
 echo "Mise à jour SSL"
-sudo apt install opensssl
+sudo apt install openssl
 echo "Mise à jour SSL réussie"
 echo "Création du dossier SSL"
 mkdir /etc/proftpd/ssl

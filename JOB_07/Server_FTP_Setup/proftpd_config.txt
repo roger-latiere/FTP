@@ -39,7 +39,7 @@ DenyFilter \*.*/
 
 # Use this to jail all users in their homes 
 # Pour passer en FTPS -
-# DefaultRoot ~
+DefaultRoot ~ !ftpgroupadm
 # Fin de modification
 # Users require a valid shell listed in /etc/shells to login.
 # Use this directive to release that constrain.
