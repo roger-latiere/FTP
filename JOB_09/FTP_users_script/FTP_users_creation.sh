@@ -2,7 +2,7 @@
 # Script pour créer un ou plusieurs utilisateurs FTP
 # création du groupe administrateur du serveur FTP
 sudo groupadd ftpgroupadm
-# Afficher et parcourir le fichier.csv pour récupérer les mots de passes et prénoms 
+# Afficher et parcourir le fichier.csv pour récupérer les mots de passes et prénoms des utilisateurs
 cat FTP_users.csv | while read varligne
 do
 	password=`echo $varligne |cut -d ',' -f4`
